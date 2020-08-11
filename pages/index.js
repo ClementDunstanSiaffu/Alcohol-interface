@@ -16,6 +16,7 @@ function Home({data}){
         
         <div className = "outer-container">
            <div className = "inner-container">
+             <h1 className = "title-text">ALCOHOL MONITORING SYSTEM</h1>
                <Table dark className = "table-container">
                  <thead>
                      <tr>
@@ -31,7 +32,7 @@ function Home({data}){
                         <th>{one.level}</th>
                         <th>{one.date}</th>
                         <th>{one.time}</th>
-                        <th>120034DEVICE</th>
+                        <th>120034DEV01</th>
                     </tr>)}
                     
                  </tbody>
