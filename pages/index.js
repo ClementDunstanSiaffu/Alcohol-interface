@@ -22,6 +22,7 @@ function Home({data}){
                        <th>ALCOHOL LEVEL (Litre)</th>
                        <th>DATE</th>
                        <th>TIME</th>
+                       <th>ID</th>
                      </tr>
                  </thead>
                  <tbody>
@@ -30,6 +31,7 @@ function Home({data}){
                         <th>{one.level}</th>
                         <th>{one.date}</th>
                         <th>{one.time}</th>
+                        <th>120034DEVICE</th>
                     </tr>)}
                     
                  </tbody>
