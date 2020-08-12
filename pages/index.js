@@ -20,7 +20,7 @@ function Home({data}){
                <Table dark className = "table-container">
                  <thead>
                      <tr>
-                       <th>ALCOHOL LEVEL (Litre)</th>
+                       <th>ALCOHOL LEVEL (%)</th>
                        <th>DATE</th>
                        <th>TIME</th>
                        <th>ID</th>
