@@ -2,6 +2,7 @@
 import React from  'react';
 import {Table} from 'reactstrap';
 import Head from 'next/head';
+import fetch from 'isomorphic-unfetch';
 
 function Home({data}){
 
