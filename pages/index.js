@@ -47,7 +47,7 @@ function Home({data}){
 }
 
 Home.getInitialProps = async ()=>{
-  const response = await fetch('https://damp-ocean-38612.herokuapp.com/alcohol/pata')
+  const response = await fetch('https://sleepy-dawn-61965.herokuapp.com/pata')
   const data = await response.json()
   return {data}
 }
